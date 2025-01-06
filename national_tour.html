@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Booking Form</title>
+  </head>
+  <body style="background-color: antiquewhite;">
+    <!-- First Field  -->
+    <fieldset style="border-radius: 4ch; background-color: aliceblue;">
+      <legend></legend>
+      <h1 style="text-align: center">Book Your Tour Now!</h1>
+      <h3 style="text-align: center;">For National tour please fill the form</h3>
+    </fieldset>
+    <!-- Second Field -->
+    <br>
+    <br>
+    <form style="width: 50%; margin: auto" action="">
+      <fieldset
+        style="border-radius: 4ch; background-color: rgb(188, 221, 221)"
+      >
+        <legend></legend>
+        <h2 style="text-align: center">Personal Informations</h2>
+        <label for="name"> Name:</label>
+        <input type="text" required="required" name="name" id="name" />
+        <br />
+        <br />
+        <label for="email">email:</label>
+        <input type="email" required="required" name="email" id="email" />
+        <br />
+        <br />
+        <label for="phone number">Phone Number:</label>
+        <input
+          type="number"
+          required="required"
+          name="phone number"
+          id="phone number"
+        />
+        <!-- Travel dtails -->
+        <h2 style="text-align: center">Travel Details</h2>
+        <br />
+        <br />
+        <label for="destnation"> Destination: </label>
+        <select required="required" name="destnation" id="Favourite Fruit">
+          <option value="select">Select</option>
+          <option value="Apple">KPK</option>
+          <option value="Banana">Sindh</option>
+          <option value="Fine Apple">Punjab</option>
+          <option value="Mango">Gilgit Baltistan</option>
+          <option value="Orange">Balochistan</option>
+        </select>
+        <br />
+        <br />
+        <label for="travel date"> Travel Date: </label>
+        <select required="required" name="travel date" id="travel date">
+          <option value="select">Select</option>
+          <option value="junwary">15jan-15feb</option>
+          <option value="febuary">15feb-15mar</option>
+          <option value="march">15mar-15apr</option>
+          <option value="april">15apr-15may</option>
+          <option value="may">15may-15june</option>
+          <option value="june">15june-15july</option>
+          <option value="july">15july-15aug</option>
+          <option value="agust">15aug-15sep</option>
+          <option value="september">15sep-15oct</option>
+          <option value="october">15oct-15nov</option>
+          <option value="november">15noc-15dec</option>
+          <option value="december">15dec-15jun</option>
+        </select>
+        <br />
+        <br />
+        <label for="num of travelors"> Num of Travelors: </label>
+        <select name="num of travelors" id="num of travelors">
+          <option value="select">Select</option>
+          <option value="solo">Solo</option>
+          <option value="two">Two</option>
+          <option value="three">Three</option>
+          <option value="family">Family</option>
+        </select>
+        <br />
+        <br />
+        <!-- Tour Prefrences -->
+        <h2 style="text-align: center">Tour Prefrences</h2>
+        <br />
+        <br />
+        <label for="package type">package Type</label>
+        <select name="package type" id="package type">
+          <option value="Select">Select</option>
+          <option value="basic">Basic</option>
+          <option value="medium">Medium</option>
+          <option value="premium">Premuim</option>
+        </select>
+        <br />
+        <br />
+        <label for="activities">Activities</label>
+        <select name="activities" id="actvities">
+          <option value="select">select</option>
+          <option value="adventure">adventure</option>
+          <option value="relaxation">Relaxation</option>
+        </select>
+        <br />
+        <br />
+        <h2 style="text-align: center">Accomodations</h2>
+        <br />
+        <br />
+        <label for="room type">Room Type</label>
+        <select name="room type" id="room type">
+          <option value="single">Single</option>
+          <option value="doubble">Doubble</option>
+          <option value="tripple">Tripple</option>
+          <option value="appartment">Appartment</option>
+        </select>
+        <br />
+        <br />
+        <label for="hotel Prefrences">Hotel Prefrences</label>
+        <select name="hotel Prefrences" id="hotel Prefrences">
+          <option value="basic">Basic</option>
+          <option value="medium">Medium</option>
+          <option value="five star">Five Star</option>
+        </select>
+        <!-- payment Information -->
+        <h2 style="text-align: center">payment Information</h2>
+        <br />
+        <br />
+        <label for="transportation"> Transportation: </label>
+        <select name="transportation" id="transportation">
+          <option value="motorcycle">motorcycle</option>
+          <option value="Car">Car</option>
+        </select>
+        <br />
+        <br />
+        <label for="add-ons">Add-ons</label>
+        <select name="add-ons" id="add-ons">
+          <option value="tour guide">Tour Guide</option>
+          <option value="porter">Porter</option>
+          <option value="not preffer">Not preffered</option>
+        </select>
+        <br />
+        <br />
+        <label for="cost summary"> Cost Summary: </label>
+        <select checked="checked" name="cost summary" id="cost summary">
+          <option value="3000$">30000pkr/Head</option>
+        </select>
+        <br />
+        <br />
+        <h3 style="text-align: center">Things that we offer for free</h3>
+        <li>
+          <ul>
+            Mutiple Support
+          </ul>
+          <ul>
+            Live Chat Support
+          </ul>
+          <ul>
+            Progressive Indications
+          </ul>
+        </li>
+        <br />
+        <br />
+        <button
+          style="
+            text-align: center;
+            margin: auto;
+            width: 200px;
+            height: 30px;
+            background-color: rgb(124, 124, 245);
+            border-radius: 4ch;
+          "
+        >
+          <label for="submit">Submit</label>
+        </button>
+      </fieldset>
+    </form>
+  </body>
+</html>
